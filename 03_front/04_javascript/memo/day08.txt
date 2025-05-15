@@ -1,0 +1,7 @@
+Day8
+
+1. DOM 연습
+    21_DOM.html
+
+2. banner 실습
+    - 동일한 사이즈의 이미지 장을 찾아 images에 slide00*로 저장한다.

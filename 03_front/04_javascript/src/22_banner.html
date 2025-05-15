@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+    <title>banner</title>
+    <style>
+        .banner2 {
+            width: 4000px;
+            transition: transform 2s;
+        }
+
+        .img > img {
+            width: 800px;
+            float: left;
+        }
+
+        section.container {
+            width: 800px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1>Change Image</h1>
+    <hr>
+    <div class="banner1">
+        <img id="myCanvas" width="800px" height="450px">
+    </div>
+    <br>
+    <h1>Slide Image</h1>
+    <hr>
+    <section class="container">
+        <div class="banner2">
+            <div class="img"><img src="./images/slide001.jpg"></div>
+            <div class="img"><img src="./images/slide002.jpg"></div>
+            <div class="img"><img src="./images/slide003.jpg"></div>
+            <div class="img"><img src="./images/slide004.jpg"></div>
+            <div class="img"><img src="./images/slide005.jpg"></div>
+        </div>
+    </section>
+</body>
+<script>
+    // 1. get image using DOM
+    const img = document.getElementById("myCanvas");
+
+    // 2. compose Pictures
+    var pics = new Array();
+    pics.push("slide001.jpg")
+    pics.push("slide002.jpg")
+    pics.push("slide003.jpg")
+    pics.push("slide004.jpg")
+    pics.push("slide005.jpg")
+
+    // 3. set Interval
+    var count = 0;
+
+    setInterval(function(){
+        img.src = "./images/" + pics[count % pics.length];
+        count++;
+    },2000);
+
+    // 4. banner
+    const banner = document.getElementsByClassName("banner2")[0];
+    var count2 = 0;
+
+    setInterval(function(){
+        if(count2 == 4) count2 = 0;
+        else count2++;
+
+        banner.style.transform = "translate(-" + (count2*800) + "px)";
+    },4000);
+</script>
+</html>

@@ -1,0 +1,65 @@
+Day9
+
+1. BOM(Browser Object Model)
+(1) window 객체
+    - 웹 브라우저의 창을 나타내는 객체
+    - 자바스크립트의 모든 객체, 전역변수, 전역함수들은
+      자동으로 window 객체의 프로퍼티가 됨
+
+    1) window.onload = function(){
+
+        }
+
+    2) window.open()
+        - 새로운 브라우저 창을 여는 메서드
+        - 내 페이지에, 새 페이지에, 부모 페이지에, 자식 페이지에
+        - 기본 사용법
+            var 객체명 = window.open(url,name,spec)
+                url : 이동할 주소
+                name : _blank(새창), _self(현재 페이지)
+                       _parent(부모 프레임), _child(자식 프레임)
+                spec : 창의 크기, 스크롤가능여부, 리사이즈가능여부
+
+(2) location 객체 
+    - 현재 브라우저에 표시된 HTML 주소 얻어오기
+      브라우저에 새 문서를 불러올 때 사용 가능
+    - var site = location.href; // 현재 페이지 주소를 site에 저장
+      location.href = "http://www.naver.com"
+
+2. jQuery
+(1) jQuery란?
+    유용하게 쓰이는 자바스크립트의 모음(library)
+    요소들을 선택하는 강력한 방법을 제공
+    간결한 문법
+    선택한 요소들을 효율적으로 제어하는 라이브러리
+    => jQuery 등 때문에 순수 javascript를 vanilla javascript
+
+(2) jQuery의 단점
+    순수 자바스크립트보다 속도는 느림
+    파일 자체가 무거움
+    60% 이상의 사이트가 사용 중이며 상황에 따라 사용여부를 결정해야 함
+    => Vue.js, React
+
+(3) 기본 문법
+    querySelectorAll (X)
+    $("선택자")
+    - # : 아이디
+    - . : 클래스
+    - 태그 : 태그명
+    - 태그[속성명=속성값] : 속성
+
+(4) 사용 방법
+    - 값 가져오기
+        <button value="AAA">BBB</button>
+        $("button").val() => AAA
+        $("button").text() => BBB
+    - 값 변경하기
+        $("button").val("CCC") => AAA가 CCC로 변경
+        $("button").text("DDD") => BBB가 DDD로 변경
+    - 반복문
+        $.each(iterator, function(index,item){});
+
+(5) 사용(설치) 방법
+    Google에서 jQuery로 검색하여 사이트 방문
+    1) 다운을 받아 <script src= >를 이용하여 링크
+    2) web을 직접 링크하는 방법

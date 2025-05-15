@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <title>Date & Math</title>
+</head>
+<body>
+    <h1>방문하신 시각에 따라 배경색이 달라지십니다.</h1>
+    <hr>
+</body>
+<script>
+    // Date
+    var now = new Date();
+    document.writeln("<h2>now : " + now + "</h2>" );
+    document.writeln("<h2>year : " + now.getFullYear() + "</h2>");
+    document.writeln("<h2>month : " + (now.getMonth() + 1) + "</h2>");
+    document.writeln("<h2>millisec : " + now.getMilliseconds() + "</h2>");
+    
+    var current = now.getMilliseconds() % 4;
+    if(current==0)
+        document.body.style.background = "violet";
+    else if(current==1)
+        document.body.style.background = "lightskyblue";
+    else if(current==2)
+        document.body.style.background = "lime";
+    else if(current==3)
+        document.body.style.background = "cream";
+
+    // Math
+    document.write("<h1>랜덤 숫자 뽑기 : " + Math.random() + "</h1>");
+
+    // N이하의 정수를 뽑는 함수 만들기
+    // random()은 0~1 사이의 소수를 리턴
+    // 0 ... 1 사이의 소수를 뽑는 능력뿐인데
+    // 특정한 숫자 N을 입력받아
+    // 1부터 N까지의 소수를 뽑는 함수
+   
+    function getRandom(N){
+        return Math.floor((N-1) * Math.random()) +1
+    }
+    document.write("<h2> 입력하신 숫자 이하의 정수는... : " + getRandom(100)+ "</h2>");
+
+    // 1~19 사이의 숫자를 하나 뽑는다
+    // 1~19 사이의 숫자 하나를 더 뽑는다.
+    // 두 숫자의 곱을 정답이라고 지정한다
+    // 사용자에게 문제를 내고 답을 맟추면
+    // 웬일이세요를 출력한다.
+    // 답을 못 맟추면 오답인거 본인이 아시죠?를 출력한다.
+    // 답을 숫자가 아닌 것을 입력하거나 창을 닫아버리면
+    // 포기하시는 거에요? ㅋㅋㅋㅋ를 출력한다.
+    var num1 = getRandom(19)
+    var num2 = getRandom(19)
+    var ans = num1 * num2
+
+    var q = prompt( num1 + " x " + num2 + " = ?");
+    var sol1 = parseInt(q)
+    if(sol1 == "" || isNaN(sol1) || sol1 == null){
+        document.write("<h2>포기하시는 거에요? ㅋㅋㅋㅋ</h2>")
+    }
+    else if(sol1 == ans){
+        document.body.style.color = "darkblue";
+        document.body.style.fontSize = "64px";
+        document.write("<h2> 웬일이세요 ㅋㅋ</h2>"); 
+    }
+    else if(sol1 != ans){
+        document.write("<h2>오답인거 본인이 아시죠?</h2>")
+    }
+    
+</script>
+</html>
