@@ -78,10 +78,10 @@
 - **실전 ERD 기반 설계 및 테스트**  
   ERD를 바탕으로 데이터베이스 구조를 설계하고, 병원 진료 데이터 등의 시나리오 기반 SQL을 작성할 수 있다.
 
-**🛠 사용 기술**
-- ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-- ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
-- ![DBeaver](https://img.shields.io/badge/DBeaver-372923?style=flat-square&logo=data&logoColor=white)
+### 🛠 사용 기술
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
+![DBeaver](https://img.shields.io/badge/DBeaver-372923?style=flat-square&logo=data&logoColor=white)
 
 ---
 
@@ -108,11 +108,11 @@
 - **실습 중심 웹 예제 구현**  
   메뉴북, 배너 슬라이드, 윈도우 팝업 등 다양한 미니 프로젝트를 통해 실무형 프론트 기능을 직접 구현할 수 있다.
 
-**🛠 사용 기술**
-- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-- ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
+### 🛠 사용 기술
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
 
 --- 
 
@@ -139,11 +139,11 @@
 - **간단한 서버 기능 구현**  
   게시글 등록, 쿠키 삭제, 스크립트 테스트 등 실습 위주의 예제를 통해 서버-클라이언트 구조를 직접 구현할 수 있다.
 
-**🛠 사용 기술**
-- ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-- ![JSP](https://img.shields.io/badge/JSP-E84D3D?style=flat-square&logo=java&logoColor=white)
-- ![Apache Tomcat](https://img.shields.io/badge/Tomcat-F8DC75?style=flat-square&logo=apachetomcat&logoColor=black)
-- ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=eclipseide&logoColor=white)
+### 🛠 사용 기술
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![JSP](https://img.shields.io/badge/JSP-E84D3D?style=flat-square&logo=java&logoColor=white)
+![Apache Tomcat](https://img.shields.io/badge/Tomcat-F8DC75?style=flat-square&logo=apachetomcat&logoColor=black)
+![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=eclipseide&logoColor=white)
 
 ---
 
