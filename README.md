@@ -48,8 +48,8 @@
 - **파일 입출력(IO)**  
   `File`, `BufferedReader`, `BufferedWriter` 등의 클래스를 활용하여 텍스트 파일을 읽고 쓰는 기능을 구현할 수 있다.
 
-**🛠 사용 기술**
-<br>
+### 🛠 사용 기술
+
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=eclipseide&logoColor=white)
 
