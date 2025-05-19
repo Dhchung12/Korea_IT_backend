@@ -18,9 +18,9 @@
 | 폴더명           | 설명                                  | 상태        |
 |----------------|--------------------------------------|------------|
 | [`java`](./01_java) | Java 기초 문법과 객체지향 프로그래밍 학습           | ✅ 완료     |
-| [`database`](./02_database) | SQL 기초와 MariaDB 기반의 데이터베이스 실습       | 🛠️ 진행 예정 |
-| [`front`](./03_front) | HTML/CSS/JS 기반의 프론트엔드 구조 및 DOM 조작 학습 | 🛠️ 진행 예정 |
-| [`server`](./04_server) | Spring Boot를 활용한 REST API 서버 구축 및 테스트   | 🛠️ 진행 예정 |
+| [`database`](./02_database) | SQL 기초와 MariaDB 기반의 데이터베이스 실습       | ✅ 완료  |
+| [`front`](./03_front) | HTML/CSS/JS 기반의 프론트엔드 구조 및 DOM 조작 학습 | ✅ 완료  |
+| [`server`](./04_server) | Spring Boot를 활용한 REST API 서버 구축 및 테스트   | ✅ 완료  |
 
 
 ---
