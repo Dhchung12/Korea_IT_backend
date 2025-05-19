@@ -6,6 +6,7 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 
 ---
 
@@ -13,7 +14,7 @@
 
 이 저장소는 **백엔드 개발 역량 강화를 위한 학습 기록**을 모은 공간입니다.  
 기초 문법부터 실전 웹 개발까지, 단계별로 정리된 학습 내용과 예제 코드를 통해 체계적으로 성장할 수 있습니다.  
-모든 파트는 독립적인 흐름과 학습 목표를 가지며, 향후 지속적으로 확장될 예정입니다.
+
 
 | 폴더명           | 설명                                  | 상태        |
 |----------------|--------------------------------------|------------|
@@ -21,6 +22,8 @@
 | [`database`](./02_database) | SQL 기초와 MariaDB 기반의 데이터베이스 실습       | ✅ 완료  |
 | [`front`](./03_front) | HTML/CSS/JS 기반의 프론트엔드 구조 및 DOM 조작 학습 | ✅ 완료  |
 | [`server`](./04_server) | Spring Boot를 활용한 REST API 서버 구축 및 테스트   | ✅ 완료  |
+| [`satellite`](./05_satellite) | Vue.js & Node.js 기반 프론트엔드 SPA 구성 및 API 연동 학습      | ✅ 완료   |
+
 
 
 ---
@@ -147,5 +150,34 @@
 
 ---
 
+## 🔄 05. Satellite
 
-> 📌 각 파트는 학습 흐름에 따라 독립적으로 구성되며, 지속적인 확장을 통해 백엔드 개발 역량을 강화합니다.
+> Vue.js 프레임워크와 Node.js 환경을 기반으로, 컴포넌트 단위 UI 구성 및 API 연동 방식까지 학습합니다.
+
+**📘 주요 학습 내용**
+
+- **Node.js 런타임 환경 이해**  
+  V8 엔진 기반의 JavaScript 런타임을 통해 웹 브라우저 외부에서 JS를 실행할 수 있는 구조를 이해한다.
+
+- **Vue 인스턴스 및 템플릿 구조**  
+  Vue 앱의 기본 구조를 구성하고, 템플릿 문법과 렌더링 흐름을 통해 동적 화면을 설계할 수 있다.
+
+- **양방향 데이터 바인딩**  
+  `v-model`을 활용하여 사용자 입력값과 데이터 상태를 실시간으로 연결할 수 있다.
+
+- **조건부 렌더링 및 반복 처리**  
+  `v-if`, `v-for` 구문을 통해 UI 요소를 조건 및 반복적으로 제어할 수 있다.
+
+- **컴포넌트 분리 및 통신**  
+  props와 emit을 통해 부모-자식 간 데이터 전달과 이벤트 전달을 구현할 수 있다.
+
+- **axios를 활용한 외부 API 연동**  
+  비동기 방식으로 API 데이터를 요청하고, 이를 화면에 반영하는 흐름을 이해할 수 있다.
+
+### 🛠 사용 기술
+
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+
