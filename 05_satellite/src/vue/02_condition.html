@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <title>Condition</title>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> 
+<body>
+    <h1>Conditional Statement</h1>
+    <hr>
+    <div id="ifs">
+        <p v-if="seen_ok">이 글이 보이십니까?</p>
+        <button v-if="button_yn">나는 생각한다. 고로 존재한다.</button>
+    </div>
+    <br><br>
+    <div id="fors">
+        <ul>
+            <li v-for="food in foods">
+                {{ food.name }}
+                <ul>
+                    <li>{{ food.price }}원</li>
+                </ul>
+            </li>
+            
+        </ul>
+    </div>
+</body>
+<script>
+    var app3 = new Vue({
+        el: '#ifs',
+        data: {
+            seen_ok: true,
+            button_yn: true
+        }
+    });
+    var app4 = new Vue({
+        el: '#fors',
+        data: {
+            foods: [
+                { name: '햄버거+콜라',price: 1500},
+                { name: '김치볶음밥',price: 2000},
+                { name: '식혜',price: 1000 }
+            ]
+        }
+    });
+</script>
+</html>
